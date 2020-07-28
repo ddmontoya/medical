@@ -255,7 +255,7 @@
      * Demo
     /* ---------------------------------------------- */
     NAY.Demo = function() {
-        $( "body" ).append( "<label class='color_switch'><i class='fas fa-moon'></i></label><a class='demo-back-link' href='../index.html'><i class='fas fa-arrow-left'></i></a>" );
+        $( "body" ).append( "<label class='color_switch'><i class='fas fa-moon'></i></label>" );
         $(".color_switch").click(function(){
             $(this).toggleClass('m-toggle-toggle');
             $('body').toggleClass('theme-light');
